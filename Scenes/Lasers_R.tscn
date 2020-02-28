@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/Lasers_R.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Effects/Player Laser.png" type="Texture" id=2]
+
+[node name="Laser_R" type="RigidBody2D"]
+collision_layer = 2
+collision_mask = 12
+mode = 2
+gravity_scale = 0.0
+can_sleep = false
+linear_damp = 0.0
+angular_damp = 0.0
+script = ExtResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+scale = Vector2( 0.5, 0.5 )
+polygon = PoolVector2Array( 24, -42, 24, -39.7, 25, -38.4, 25, 42.2, 24.6, 44, 22.9, 44, 17.7, 50, -18.7, 50, -25, 43, -25, -40.6, -14, -49.9, 13, -50 )

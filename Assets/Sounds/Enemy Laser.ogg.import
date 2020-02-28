@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Enemy Laser.ogg-6371181bd2202942b2b7be3245d63f34.oggstr"
+
+[deps]
+
+source_file="res://Assets/Sounds/Enemy Laser.ogg"
+dest_files=[ "res://.import/Enemy Laser.ogg-6371181bd2202942b2b7be3245d63f34.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
